@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArcPad>
+	<APPLET name="AXF_Tracklog">
+		<SYSTEMOBJECTS>
+			<GPS onposition="addToAxfTracklog()"/>
+		</SYSTEMOBJECTS>
+	</APPLET>
+	<SCRIPT src="AXFTracklog.js" language="JScript"/>
+</ArcPad>

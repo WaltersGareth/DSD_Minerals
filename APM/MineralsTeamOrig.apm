@@ -1,0 +1,113 @@
+<ArcPad>
+	<MAP name="MineralsTeam">
+		<COMMENTS/>
+		<PROPERTIES>
+			<ENVELOPE minx="138.48688104331" miny="-34.8825635231146" maxx="138.568121941604" maxy="-34.8466096529817"/>
+			<COORDSYS string="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.0174532925199433]]"/>
+			<SNAPPING tolerance="5"/>
+			<PROPERTY name="QuickFields" value="true"/>
+		</PROPERTIES>
+		<BOOKMARKS/>
+		<LAYER name="SketchLayer.apg" quickcapture="true" quickcapturelabel="Capture SketchLayer.apg" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SketchLayer.apg"/>
+			<METADATA/>
+		</LAYER>
+		<LAYER name="MineralsPoints" identify="true" edit="true" quickcapture="true" quickcapturelabel="Capture MineralsPoints" quickdraw="1">
+			<DATASET name="c:\dsd_Minerals\DATA\DSD_Minerals_gdb.axf|1|MineralsPoints"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PTID" rotationfield="" visible="true" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" blockout="Yellow" font="Arial" fontstyle="bold" fontsize="13" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="DRILLHOLENUMBER" value="fgfgnsrgn"/>
+					<FIELD name="PTINFO" value="FGasdfas"/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="C"/>
+					<FIELD name="PTID" value="9_9_9_40_18"/>
+				</FIELDS>
+				<FIELDS name="ATTACHMENTS">
+					<FIELD name="FILENAME"/>
+					<FIELD name="BEARING"/>
+					<FIELD name="HYPERLINK" value="20160308_141257.jpg"/>
+					<FIELD name="PTID"/>
+				</FIELDS>
+				<FIELDS name="[3]">
+					<FIELD name="DRILLHOLENUMBER" value=""/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="E"/>
+					<FIELD name="PTID" value="143844"/>
+				</FIELDS>
+				<FIELDS name="MINERALS_ASSESSMENTS">
+					<FIELD name="WEEDS"/>
+					<FIELD name="ABOHERITAGE"/>
+					<FIELD name="ASSESSOR" value=""/>
+					<FIELD name="WASTECONTAMINATION"/>
+					<FIELD name="EMISSIONS"/>
+					<FIELD name="PEPRID" value=""/>
+					<FIELD name="GROUNDWATERAQUIFER"/>
+					<FIELD name="REUSECLOSEDTRACKS"/>
+					<FIELD name="INDUCTIONSUPERVISION"/>
+					<FIELD name="GROUNDWATERDISCHARGE"/>
+					<FIELD name="GROUNDWATERUSERS"/>
+					<FIELD name="INFRASTRUCTURE"/>
+					<FIELD name="FAUNA"/>
+					<FIELD name="STAKEHOLDERS"/>
+					<FIELD name="STAGE" value="O"/>
+					<FIELD name="EUROHERITAGE"/>
+					<FIELD name="SURFACEDRAINAGE"/>
+					<FIELD name="PLANNING"/>
+					<FIELD name="HAZARDOUSMATERIALS"/>
+					<FIELD name="VEGFAUNAHABITAT"/>
+					<FIELD name="SOIL"/>
+					<FIELD name="PUBLICSAFETY"/>
+					<FIELD name="TENEMENTNUMBER" value=""/>
+				</FIELDS>
+				<FIELDS name="[1]">
+					<FIELD name="DRILLHOLENUMBER" value=""/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="C"/>
+					<FIELD name="PTID" value="143838"/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="viewedAssessments" identify="true" quickcapture="true" quickcapturelabel="Capture viewedAssessments" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\ViewedAssessmentsSHP.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PTID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="MS Shell Dlg" fontstyle="regular" fontsize="7"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="VIEWDATE" value=""/>
+					<FIELD name="PTID" value=""/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<STATUSBAR visible="true"/>
+		<SCALEBAR visible="true"/>
+		<NORTHARROW visible="false"/>
+		<ROTATION/>
+		<MAPGRID quickdraw="0"/>
+		<TRACKLOG quickdraw="0"/>
+		<TOOLBARS>
+			<TOOLBAR name="Main" visible="true"/>
+			<TOOLBAR name="Browse" visible="true"/>
+			<TOOLBAR name="Draw" visible="true"/>
+			<TOOLBAR name="QuickCapture" visible="true"/>
+		</TOOLBARS>
+		<REFPOINTS/>
+	</MAP>
+</ArcPad>

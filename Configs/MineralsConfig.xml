@@ -1,0 +1,204 @@
+<CONFIG>
+    <USERS>
+        <USER name="Dan" defaultStage="Operational"/>
+        <USER name="Jack" defaultStage="Operational"/>
+    </USERS>
+    <TYPE label="Project Management">
+        <ASPECT name="Planning" OpVisible="true" PostVisible="false" />
+        <ASPECT name="InductionSuperVision" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Weeds" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Fauna" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Soil" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="false"/>
+    </TYPE>
+    <TYPE label="Low Impact Survey">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Fauna" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="false" PostVisible="false"/>
+    </TYPE>
+    <TYPE label="Track Inspection Point">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="false" PostVisible="false"/>
+    </TYPE>
+        <TYPE label="Drill site">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="true"/>
+    </TYPE>
+    <TYPE label="Camp">
+        <ASPECT name="Planning" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="false"/>
+    </TYPE>
+    <TYPE label="Lay Down Area">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="false"/>
+    </TYPE>
+        <TYPE label="Sample Storage">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Weeds" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="true"/>
+    </TYPE>
+    <TYPE label="Excavations">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="true" PostVisible="false"/>
+    </TYPE>
+    <TYPE label="Water Storage">
+        <ASPECT name="Planning" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="InductionSuperVision" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="StakeHolderLandHolders" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="DEWNR" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="VegetationFauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Weeds" OpVisible="false" PostVisible="true"/>
+        <ASPECT name="Fauna" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="AboriginalHeriage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="EuropeanHeitage" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="WasteContamination" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="Soil" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="SurfaceDrainage" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterAquifer" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterDischarge" OpVisible="true" PostVisible="true"/>
+        <ASPECT name="GroundwaterUsers" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="Emissions" OpVisible="true" PostVisible="false"/>
+        <ASPECT name="ReUseClosedTracks" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="Infrastructure" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="PublicSafety" OpVisible="false" PostVisible="false"/>
+        <ASPECT name="HazardousMaterials" OpVisible="false" PostVisible="false"/>
+    </TYPE>
+</CONFIG>

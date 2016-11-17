@@ -1,0 +1,226 @@
+<ArcPad>
+	<MAP name="">
+		<COMMENTS/>
+		<PROPERTIES>
+			<ENVELOPE minx="138.564643154984" miny="-34.9408609596764" maxx="138.640961013275" maxy="-34.9070858239576"/>
+			<COORDSYS string="GEOGCS[&quot;GCS_GDA_1994&quot;,DATUM[&quot;D_GDA_1994&quot;,SPHEROID[&quot;GRS_1980&quot;,6378137,298.257222101]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.0174532925199433]]"/>
+			<SNAPPING tolerance="5"/>
+			<PROPERTY name="QuickFields" value="true"/>
+		</PROPERTIES>
+		<BOOKMARKS/>
+		<LAYER name="SketchLayer.apg" edit="true" quickcapture="true" quickcapturelabel="Capture SketchLayer.apg" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SketchLayer.apg"/>
+			<METADATA/>
+		</LAYER>
+		<LAYER name="MASTER.MERRegApp_MinPoints" identify="true" edit="true" quickcapture="true" quickcapturelabel="Capture MASTER.MERRegApp_MinPoints" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SDE_DEFAULT_CSDLP_world.axf|1|MASTER.MERRegApp_MinPoints"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PTID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="DRILLHOLENUMBER" value="fgfgnsrgn"/>
+					<FIELD name="PTINFO" value="sss"/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="C"/>
+					<FIELD name="PTID" value="2016111615"/>
+				</FIELDS>
+				<FIELDS name="ATTACHMENTS">
+					<FIELD name="FILENAME"/>
+					<FIELD name="BEARING"/>
+					<FIELD name="HYPERLINK" value="20160308_141257.jpg"/>
+					<FIELD name="PTID"/>
+				</FIELDS>
+				<FIELDS name="MERREGAPP_MINATTACHMENTS">
+					<FIELD name="LAST_EDITED_USER"/>
+					<FIELD name="FILENAME"/>
+					<FIELD name="CREATED_USER"/>
+					<FIELD name="LAST_EDITED_DATE"/>
+					<FIELD name="BEARING"/>
+					<FIELD name="CREATED_DATE"/>
+					<FIELD name="HYPERLINK" value="C:\DSD_Minerals\Photos\20161116_132734.jpg"/>
+					<FIELD name="PTID"/>
+				</FIELDS>
+				<FIELDS name="MERREGAPP_MINASSESSMENTS">
+					<FIELD name="WEEDS"/>
+					<FIELD name="ABOHERITAGE"/>
+					<FIELD name="ASSESSOR" value="Dan"/>
+					<FIELD name="WASTECONTAMINATION"/>
+					<FIELD name="EMISSIONS"/>
+					<FIELD name="LAST_EDITED_USER"/>
+					<FIELD name="PEPRID" value="d"/>
+					<FIELD name="GROUNDWATERAQUIFER"/>
+					<FIELD name="REUSECLOSEDTRACKS"/>
+					<FIELD name="INDUCTIONSUPERVISION"/>
+					<FIELD name="GROUNDWATERDISCHARGE"/>
+					<FIELD name="GROUNDWATERUSERS"/>
+					<FIELD name="INFRASTRUCTURE"/>
+					<FIELD name="CREATED_USER"/>
+					<FIELD name="ASSESSMENTID"/>
+					<FIELD name="LAST_EDITED_DATE"/>
+					<FIELD name="FAUNA"/>
+					<FIELD name="STAKEHOLDERS"/>
+					<FIELD name="STAGE" value="O"/>
+					<FIELD name="EUROHERITAGE"/>
+					<FIELD name="SURFACEDRAINAGE"/>
+					<FIELD name="CREATED_DATE"/>
+					<FIELD name="PLANNING"/>
+					<FIELD name="HAZARDOUSMATERIALS"/>
+					<FIELD name="VEGFAUNAHABITAT"/>
+					<FIELD name="SOIL"/>
+					<FIELD name="PUBLICSAFETY"/>
+					<FIELD name="TENEMENTNUMBER" value="d"/>
+				</FIELDS>
+				<FIELDS name="[3]">
+					<FIELD name="DRILLHOLENUMBER" value=""/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="E"/>
+					<FIELD name="PTID" value="143844"/>
+				</FIELDS>
+				<FIELDS name="MINERALS_ASSESSMENTS">
+					<FIELD name="WEEDS"/>
+					<FIELD name="ABOHERITAGE"/>
+					<FIELD name="ASSESSOR" value=""/>
+					<FIELD name="WASTECONTAMINATION"/>
+					<FIELD name="EMISSIONS"/>
+					<FIELD name="PEPRID" value=""/>
+					<FIELD name="GROUNDWATERAQUIFER"/>
+					<FIELD name="REUSECLOSEDTRACKS"/>
+					<FIELD name="INDUCTIONSUPERVISION"/>
+					<FIELD name="GROUNDWATERDISCHARGE"/>
+					<FIELD name="GROUNDWATERUSERS"/>
+					<FIELD name="INFRASTRUCTURE"/>
+					<FIELD name="FAUNA"/>
+					<FIELD name="STAKEHOLDERS"/>
+					<FIELD name="STAGE" value="O"/>
+					<FIELD name="EUROHERITAGE"/>
+					<FIELD name="SURFACEDRAINAGE"/>
+					<FIELD name="PLANNING"/>
+					<FIELD name="HAZARDOUSMATERIALS"/>
+					<FIELD name="VEGFAUNAHABITAT"/>
+					<FIELD name="SOIL"/>
+					<FIELD name="PUBLICSAFETY"/>
+					<FIELD name="TENEMENTNUMBER" value=""/>
+				</FIELDS>
+				<FIELDS name="[1]">
+					<FIELD name="DRILLHOLENUMBER" value=""/>
+					<FIELD name="DRILLHOLETYPE"/>
+					<FIELD name="LON"/>
+					<FIELD name="LAT"/>
+					<FIELD name="PTTYPE" value="C"/>
+					<FIELD name="PTID" value="143838"/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="MASTER.MERRegApp_MinTracklogPoint" visible="false" identify="true" quickcapture="true" quickcapturelabel="Capture MASTER.MERRegApp_MinTracklogPoint" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SDE_DEFAULT_CSDLP_world.axf|2|MASTER.MERRegApp_MinTracklogPoint"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="UTCTIME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" vertalignment="bottom"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="MASTER.MERRegApp_MinTracklogPoly" visible="false" identify="true" quickcapture="true" quickcapturelabel="Capture MASTER.MERRegApp_MinTracklogPoly" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SDE_DEFAULT_CSDLP_world.axf|3|MASTER.MERRegApp_MinTracklogPoly"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="UTCTIME" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="Arial" fontstyle="regular" fontsize="8" horzalignment="center" vertalignment="center"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<SNAPPING vertex="false" edge="false"/>
+		</LAYER>
+		<LAYER name="ViewedAssessmentsSHP_GDA.shp" identify="true" quickcapture="true" quickcapturelabel="Capture ViewedAssessmentsSHP_GDA.shp" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\ViewedAssessmentsSHP_GDA.shp"/>
+			<METADATA/>
+			<SYMBOLOGY>
+				<SIMPLELABELRENDERER field="PTID" rotationfield="" visible="false" expression="" language="">
+					<TEXTSYMBOL fontcolor="Black" font="MS Shell Dlg" fontstyle="regular" fontsize="7"/>
+				</SIMPLELABELRENDERER>
+			</SYMBOLOGY>
+			<FIELDHISTORY>
+				<FIELDS>
+					<FIELD name="VIEWDATE" value=""/>
+					<FIELD name="PTID" value=""/>
+				</FIELDS>
+			</FIELDHISTORY>
+			<SNAPPING vertex="false"/>
+		</LAYER>
+		<LAYER name="SouthWest.tif" quickcapture="true" quickcapturelabel="Capture SouthWest.tif" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SouthWest.tif"/>
+			<METADATA>
+				<COMMENTS>Width*Height: 22337*18209 
+SamplesPerPixel: 3 
+Bits Per Sample: 8,8,8 
+Byte Order: Intel (LSB) 
+Compression: LZW 
+Photometric: RGB 
+Predictor: None 
+Layout: 128*128 tiles</COMMENTS>
+			</METADATA>
+		</LAYER>
+		<LAYER name="SouthEast.tif" quickcapture="true" quickcapturelabel="Capture SouthEast.tif" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\SouthEast.tif"/>
+			<METADATA>
+				<COMMENTS>Width*Height: 15638*18584 
+SamplesPerPixel: 3 
+Bits Per Sample: 8,8,8 
+Byte Order: Intel (LSB) 
+Compression: LZW 
+Photometric: RGB 
+Predictor: None 
+Layout: 128*128 tiles</COMMENTS>
+			</METADATA>
+		</LAYER>
+		<LAYER name="NorthEast.tif" quickcapture="true" quickcapturelabel="Capture NorthEast.tif" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\NorthEast.tif"/>
+			<METADATA>
+				<COMMENTS>Width*Height: 15638*20010 
+SamplesPerPixel: 3 
+Bits Per Sample: 8,8,8 
+Byte Order: Intel (LSB) 
+Compression: LZW 
+Photometric: RGB 
+Predictor: None 
+Layout: 128*128 tiles</COMMENTS>
+			</METADATA>
+		</LAYER>
+		<LAYER name="NorthWest.tif" quickcapture="true" quickcapturelabel="Capture NorthWest.tif" quickdraw="1">
+			<DATASET name="C:\DSD_Minerals\DATA\NorthWest.tif"/>
+			<METADATA>
+				<COMMENTS>Width*Height: 24160*19963 
+SamplesPerPixel: 3 
+Bits Per Sample: 8,8,8 
+Byte Order: Intel (LSB) 
+Compression: LZW 
+Photometric: RGB 
+Predictor: None 
+Layout: 128*128 tiles</COMMENTS>
+			</METADATA>
+		</LAYER>
+		<STATUSBAR visible="true"/>
+		<SCALEBAR visible="true"/>
+		<NORTHARROW visible="false"/>
+		<ROTATION/>
+		<MAPGRID quickdraw="0"/>
+		<TRACKLOG visible="true" quickdraw="0"/>
+		<TOOLBARS>
+			<TOOLBAR name="Main" visible="true"/>
+			<TOOLBAR name="Browse" visible="true"/>
+			<TOOLBAR name="Draw" visible="true"/>
+			<TOOLBAR name="QuickCapture" visible="true"/>
+			<TOOLBAR name="Tracklog" visible="true"/>
+		</TOOLBARS>
+		<REFPOINTS/>
+	</MAP>
+</ArcPad>
