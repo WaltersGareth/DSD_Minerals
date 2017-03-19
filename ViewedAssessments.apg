@@ -1,0 +1,98 @@
+<ArcPad>
+	<FEATURESET>
+		<COORDSYS string="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;Degree&quot;,0.0174532925199433]]">
+		</COORDSYS>
+		<ENVELOPE minx="138.40613496751" miny="-34.967539620111" maxx="138.618689671417" maxy="-34.8385235325521">
+		</ENVELOPE>
+		<FEATURES>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.564956290048" y="-34.8655301539175"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="127,255,255" width="30" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.607215355604" y="-34.8909975377957"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="50" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.595181317068" y="-34.9187038125643"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="50" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.618689671417" y="-34.9080690808349"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="50" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.546765301563" y="-34.9520073145589"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="5" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.457209665947" y="-34.8711273811434"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="5" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.441537429715" y="-34.8467794427104"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="5" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.476240238516" y="-34.86608987664"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Orange" width="5" outlinewidth="1"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.596440693194" y="-34.9569048883816"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Red" width="30" outlinewidth="1" type="star"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.40613496751" y="-34.9569048883816"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Red" width="30" outlinewidth="1" type="star"/>
+				</SYMBOL>
+			</FEATURE>
+			<FEATURE>
+				<GEOMETRY type="point">
+					<POINT x="138.532352441456" y="-34.967539620111"/>
+				</GEOMETRY>
+				<SYMBOL>
+					<SIMPLEMARKERSYMBOL color="Red" width="30" outlinewidth="1" type="star"/>
+				</SYMBOL>
+			</FEATURE>
+		</FEATURES>
+	</FEATURESET>
+</ArcPad>
