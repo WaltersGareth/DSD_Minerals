@@ -2,10 +2,11 @@
 <ArcPad>
 	<APPLET name="MineralsTeam">
 		<TOOLBARS>
-			<TOOLBAR name="browse" caption="" visible="true" image="$happy">
+			<TOOLBAR name="main" caption="" visible="true" image="$happy">
 				<TOOLBUTTON name="tlMultiRectangle" shortcut="" image="@modeidentify" onpointerdown="Call CreateMultiSelectRectangle"/>
 				<TOOLBUTTON onclick="Applet.Forms(&quot;frmCoordSys&quot;).Show" name="tlChangeCoords" shortcut="" image="@setmapcoordinates"/>
-				<TOOLBUTTON name="tlUploadPhotos" shortcut="" image="$cyborg" onclick="Application.Run (&quot;C:\\DSD_Minerals\\CustomScripts\\PhotoUploadTool.py&quot;)"/>
+				<TOOLBUTTON name="tlUploadPhotos" shortcut="" image="$fdiskread" onclick="Application.Run (&quot;C:\\DSD_Minerals\\CustomScripts\\PhotoUploadTool.py&quot;)"/>
+				<TOOLBUTTON name="tlDownloadPhotos" shortcut="" image="$fdisksave" onclick="Application.Run &quot;C:\\DSD_Minerals\\CustomScripts\\PhotoDownloadTool.py&quot;, Application.UserProperties(&quot;FolderName&quot;)"/>
 			</TOOLBAR>
 		</TOOLBARS>
 		<FORMS>
@@ -21,21 +22,26 @@
 				</PAGE>
 			</FORM>
 			<FORM name="frmCoordSys" caption="Change Coordinates" width="400" height="250">
-				<PAGE name="PAGE1" caption="Page 1" sip="false">
-					<RADIOBUTTON name="rdbZone52" x="27" y="119" width="67" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 53)" caption="Zone 52" tooltip="" group="true" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
-					<RADIOBUTTON name="rdbZone53" x="99" y="119" width="74" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 54)" caption="Zone 53" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
-					<RADIOBUTTON name="rdbZone54" x="179" y="119" width="76" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 55)" caption="Zone 54" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
+				<PAGE name="PAGE1" caption="Page 1" sip="false" onsetactive="If GPS.IsValidFix Then
+ ThisEvent.Object.Controls(&quot;rdbGPS&quot;).Value = True
+Else
+ ThisEvent.Object.Controls(&quot;rdbGPS&quot;).Enabled = False
+ ThisEvent.Object.Controls(&quot;rdbManual&quot;).Value = True
+End If">
+					<RADIOBUTTON name="rdbZone52" x="27" y="119" width="67" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 52)" caption="Zone 52" tooltip="" group="true" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
+					<RADIOBUTTON name="rdbZone53" x="99" y="119" width="74" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 53)" caption="Zone 53" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
+					<RADIOBUTTON name="rdbZone54" x="179" y="119" width="76" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 54)" caption="Zone 54" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
 					<RADIOBUTTON name="rdbZoneLamberts" x="260" y="119" width="105" height="12" onclick="Call ConvertCoords(ThisEvent.Object.Parent, 99)" caption="Lamberts" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
 					<LABEL name="lblX" x="27" y="159" width="50" height="10" caption="X:" tooltip="" group="true" border="false" fontsize="12"/>
 					<LABEL name="lblConvertedX" x="99" y="159" width="161" height="10" caption="Convert me!" tooltip="" group="true" border="false" fontsize="12"/>
 					<LABEL name="lblY" x="27" y="187" width="50" height="10" caption="Y:" tooltip="" group="true" border="false" fontsize="12"/>
 					<LABEL name="lblConvertedY" x="99" y="187" width="161" height="10" caption="Convert me!" tooltip="" group="true" border="false" fontsize="12"/>
-					<RADIOBUTTON name="rdbGPS" x="27" y="10" width="50" height="12" onclick="Call getGPS_Coords(ThisEvent.Object.Parent)" caption="GPS" tooltip="" tabstop="true" border="false" value="True" fontsize="12" alignment="left"/>
+					<RADIOBUTTON name="rdbGPS" x="27" y="10" width="50" height="12" onclick="Call getGPS_Coords(ThisEvent.Object.Parent)" caption="GPS" tooltip="" tabstop="true" border="false" value="0" fontsize="12" alignment="left"/>
 					<RADIOBUTTON name="rdbManual" x="99" y="10" width="171" height="12" onclick="Call removeGPS_Coords(ThisEvent.Object.Parent)" caption="Enter Coords (WGS)" tooltip="" tabstop="true" border="false" value="" fontsize="12" alignment="left"/>
 					<LABEL name="lblLat" x="27" y="73" width="50" height="10" caption="Latitude:" tooltip="" group="true" border="false" fontsize="12"/>
 					<LABEL name="lblLong" x="27" y="38" width="50" height="10" caption="Longitude:" tooltip="" group="true" border="false" fontsize="12"/>
 					<EDIT name="txtLong" x="99" y="39" width="161" height="15" defaultvalue="" tooltip="" tabstop="true" border="true" sip="false" fontsize="12"/>
-					<EDIT name="txtLat" x="99" y="71" width="161" height="15" defaultvalue="" tooltip="" tabstop="true" border="true" sip="false"/>
+					<EDIT name="txtLat" x="99" y="71" width="161" height="15" defaultvalue="" tooltip="" tabstop="true" border="true" sip="false" fontsize="12"/>
 				</PAGE>
 			</FORM>
 		</FORMS>

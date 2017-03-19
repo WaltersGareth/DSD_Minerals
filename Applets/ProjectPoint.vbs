@@ -9,6 +9,8 @@ End Sub
 Sub removeGPS_Coords(pgeObject)
 	pgeObject.Controls("txtLong").text = ""
 	pgeObject.Controls("txtLat").text = ""
+	pgeObject.Controls("lblConvertedX").text = ""
+	pgeObject.Controls("lblConvertedY").text = ""
 End Sub
 
 Sub ConvertCoords(pgeObject, zonecode)

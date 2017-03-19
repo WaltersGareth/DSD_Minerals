@@ -30,7 +30,7 @@ If Not objRect Is Nothing Then
 			If Map.SelectionBookmark > 0 Then
 				ptID = selrs.Fields("PTID").Value
 				ptType = selrs.Fields("PTTYPE").Value
-				Console.print ptID & ", " & ptType
+				'Console.print ptID & ", " & ptType
 
 				Applets("MineralsTeam").Forms("frmIdentify").Show
 			End If
@@ -71,7 +71,7 @@ If ds.IsOpen then
 	set selrs =	ds.Execute (sqlStr)
 	
 	If (Not selrs Is Nothing) Then
-		Console.print "count: " & selrs.RecordCount
+		'Console.print "count: " & selrs.RecordCount
 		selrs.MoveFirst
 		objEvent.Controls("lblName").text = selrs.fields("ptinfo").value			
 		objEvent.Controls("lblPtInfo").text = selrs.fields("std").value
@@ -90,7 +90,7 @@ If ds.IsOpen then
 			objEvent.Controls("lblNoInspections").visible = false
 		End If
 	Else 
-		Console.print "nope"
+		'Console.print "nope"
 	End If
 End If
 

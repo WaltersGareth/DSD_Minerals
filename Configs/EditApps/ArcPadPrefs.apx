@@ -1,9 +1,9 @@
 <ArcPad>
 	<PREFERENCES>
-		<STARTUP quickstart="4"/>
-		<SCRIPTING language="JScript"/>
-		<PATHS public="C:\Users\Public\Documents\ArcPad" data="C:\DSD_MERS\APM,C:\DSD_MERS\DATA\AXFs" applets="C:\DSD_MERS\Applets\Common,C:\DSD_MERS\Applets\MapApp" styles="" extensions="" templates=""/>
-		<CONFIG file="C:\DSD_MERS\Configs\MapApp\ArcPad.apx"/>
+		<STARTUP quickstart="0"/>
+		<SCRIPTING language="VBScript"/>
+		<PATHS public="C:\Users\Public\Documents\ArcPad" data="C:\DSD_MERS\DATA" applets="C:\DSD_MERS\Applets\EditApps,C:\DSD_MERS\Applets\Common" styles="" extensions="" templates=""/>
+		<CONFIG file="C:\DSD_MERS\Configs\EditApps\ArcPad.apx"/>
 		<FONTS>
 			<LABEL font="Tahoma" fontsize="9" charset="ANSI" fontstyle="regular"/>
 		</FONTS>
@@ -41,16 +41,16 @@
 		<RANGEFINDER protocol="" observerreference="foresight" autoactivate="false" playalert="true" capturebutton="any">
 			<COMPORT port="1" baud="4800" dtrcontrol="enable" rtscontrol="enable"/>
 		</RANGEFINDER>
-		<CAMERA device="@APC" quality="75" path="C:\Users\GWalters\Pictures" prefix="Photo" shortcut=""/>
-		<TRACKLOG name="C:\Users\GWalters\Documents\My ArcPad\TrackLog.shp" interval="5"/>
-		<LOCALE lcid="00000409" codepage="1252"/>
-		<DISPLAY>
+		<CAMERA device="@SCA" quality="100" path="C:\DSD_MERS\Attachments" prefix="Photo" shortcut=""/>
+		<TRACKLOG name="C:\UserData\Documents\My ArcPad\\TrackLog.shp" interval="5"/>
+		<LOCALE lcid="00000c09" codepage="1252"/>
+		<DISPLAY dialogbuttonsize="4">
 			<MAPNAVIGATOR visible="false"/>
 			<SYSTEMTRAY/>
-			<TABBAR applicationbutton="false" dock="top"/>
+			<TABBAR dock="top" selector="false" applicationbutton="false"/>
 		</DISPLAY>
 		<STATUSBAR/>
-		<SERVER url="http://agportal-dev-arcgis-app.pirsa.esriaustraliaonline.com.au:6080/arcgis" username="petgpy" password="AKDDINF@OLENADEDMGH@HM@H" bingkey=""/>
+		<SERVER url="" username="" password="" bingkey=""/>
 		<LAYERS autopack="true" defaultbasemap="" adddefaultbasemap="true"/>
 		<DRAWING indexratio="0.25" priority="abovenormal"/>
 		<QUICKDRAW quality="1"/>

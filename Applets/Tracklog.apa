@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArcPad>
+	<APPLET name="Tracklog">
+		<TOOLBARS>
+			<TOOLBAR name="Tracklog" caption="" visible="true" image="$footsteps">
+				<TOOLBUTTON onclick="Call ArchiveTrackLog" name="Archive" shortcut="" image="$fdisksave" tooltip="Archive"/>
+				<TOOLBUTTON onclick="Call AddTrackLog" name="Add" shortcut="" image="$fdiskread" tooltip="Add"/>
+				<TOOLBUTTON onclick="Call ConvertPointtoLine(Map.EditLayer(1), Map.EditLayer(2))" name="Convert" shortcut="" image="$pennote2" tooltip="Convert"/>
+			</TOOLBAR>
+		</TOOLBARS>
+	</APPLET>
+	<SCRIPT src="Tracklog.vbs" language="VBScript"/>
+</ArcPad>

@@ -6,13 +6,13 @@ if (!Application.UserProperties("prevX")){
 
 }
 else {
-	Console.print (GPS.X + ", " + GPS.Y)
+	//Console.print (GPS.X + ", " + GPS.Y)
 	var r = 6371e3
 	var x = (GPS.X - Application.UserProperties("prevX")) + Math.cos(Application.UserProperties("prevY") + GPS.Y);
-	Console.print(x)
+	//Console.print(x)
 	var y = (GPS.Y - Application.UserProperties("prevY"));
 	var dm = Math.sqrt(x*x + y*y)
-	Console.print (dm)
+	//Console.print (dm)
 
 	if (dm > 5 ){
 	  Application.UserProperties("prevX") = GPS.X;
@@ -29,9 +29,9 @@ else {
 
 
 		var sqlValues = GPS.Y + ", " + GPS.X + ", " + 0 + ", " + 0 + ", " + 0 + ", '" + ( d.getHours() + ":" + d.getMinutes() ) + "', " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", " + 0 + ", '" + formattedDate + "', 1";
-		Console.print (sqlValues);
+		//Console.print (sqlValues);
 		var sqlString = "INSERT INTO MERREGAPP_MINTRACKLOGPOINT " + "(" + sqlFields + ") VALUES (" + sqlValues + ");";
-		Console.print (sqlString);
+		//Console.print (sqlString);
 		var result = ds.Execute( sqlString );
 	  }
 	}
